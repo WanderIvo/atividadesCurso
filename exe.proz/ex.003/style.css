@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+a{
+    color: white;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produto1{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.img{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+.price{
+    color: white;
+    font-style: bold;
+    font-size: 18px;
+}
+.titulo{
+    font-size: 20px;
+}
+#botao{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+
+}
